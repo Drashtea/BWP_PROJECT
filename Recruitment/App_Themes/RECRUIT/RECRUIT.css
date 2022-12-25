@@ -1,0 +1,570 @@
+
+.main
+{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.insidearea
+{
+    width: 968px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container_box
+{
+    width: 948px;
+    height: auto;
+    float: left;
+    background: #FFF;
+    padding: 10px;
+    -moz-box-shadow: 0px 0px 3px #999;
+    -webkit-box-shadow: 0px 0px 3px #999;
+    box-shadow: 0px 0px 3px #999;
+    margin-bottom: 50px;
+}
+
+/*======================== Label ============================*/
+.Form_Lbl
+{
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.5em; /*font-weight:bold;*/
+}
+
+.Form_Lbl_Guj
+{
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5em; /*font-weight:bold;*/
+    padding-top:5px;
+    padding-bottom:5px;
+    text-align:justify;
+}
+
+.Form_Lbl_Bold
+{
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.5em; 
+    font-weight:bold;
+}
+.Form_Lbl_Justify
+{
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.8em; /*font-weight:bold;*/
+    text-align:justify;
+}
+
+/*======================== Label ============================*/
+.Eligible
+{
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: Blue;
+}
+.NotEligible
+{
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: Red;
+}
+/*======================== Textbox ============================*/
+.TextBox
+{
+    font-family: Arial,Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+}
+/*======================== Textbox ============================*/
+
+/*======================== DropDownList ============================*/
+.DropDown
+{
+    font-family: Arial,Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+}
+/*======================== DropDownList ============================*/
+
+.HowToApply
+{
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: Blue;
+    text-decoration: none;
+}
+.ApplyForPost
+{
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: Black;
+}
+.ApplyForPost_Blue
+{
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(136, 1, 151);
+}
+
+
+.MasterHead
+{
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: White;
+}
+
+.SystemHead
+{
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: White;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+   /* background: url(images/bg1.jpg) repeat;*/
+    font-family: 'Calibri' , Tahoma;
+    color: #4a4949;
+    font-size: 13px;
+}
+a
+{
+    color: #008DEC;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #000;
+}
+img
+{
+    border: none;
+}
+
+.main
+{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.main-inside
+{
+    width: 978px;
+    height: auto;
+    margin: 0 auto;
+}
+.content
+{
+    width: 100%;
+    float: left;
+}
+
+.header
+{
+    width: 100%;
+    height: 104px;
+    float: left;
+    background: #FFF;
+    border-top: #dedddd 8px solid;
+}
+.header-inside
+{
+    width: 100%;
+    height: 104px;
+    position: relative;
+}
+.logo
+{
+    width: 165px;
+    height: 160px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.inner-box
+{
+    width: 938px;
+    height: auto;
+    float: left;
+    background: #EAFAFF;
+    min-height: 330px;
+    padding: 10px;
+}
+
+.container-main
+{
+    width: 958px;
+    height: auto;
+    float: left;
+    background: #FFF;
+    padding: 0px;
+    -moz-box-shadow: 0px 0px 3px #999;
+    -webkit-box-shadow: 0px 0px 3px #999;
+    box-shadow: 0px 0px 3px #999;
+    margin-bottom: 0px;
+}
+
+.container-main_Header1
+{
+    width: 958px;
+    height: auto;
+    float: left;
+    background: #74065e;
+    padding: 0px;
+    -moz-box-shadow: 0px 0px 3px #999;
+    -webkit-box-shadow: 0px 0px 3px #999;
+    box-shadow: 0px 0px 3px #999;
+    margin-bottom: 0px;
+}
+
+.container-main_Header
+{
+    width: 958px;
+    height: auto;
+    float: left;
+    /*background: #0E4C85;*/
+    color: #ffffff;
+    background: -moz-linear-gradient(315deg, rgb(30, 176, 234) 0%, rgb(108, 29, 199) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(30, 176, 234)), color-stop(100%, rgba(108, 29, 199))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(315deg, rgba(30, 176, 234) 0%, rgba(108, 29, 199) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(315deg, rgba(30, 176, 234) 0%, rgba(108, 29, 199) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(315deg, rgba(30, 176, 234) 0%, rgba(108, 29, 199) 100%); /* ie10+ */
+    background: linear-gradient(135deg, rgba(30, 176, 234) 0%, rgba(108, 29, 199) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c0094', endColorstr='#ff4e50',GradientType=1 );
+    padding: 0px;
+    -moz-box-shadow: 0px 0px 3px #999;
+    -webkit-box-shadow: 0px 0px 3px #999;
+    box-shadow: 0px 0px 3px #999;
+    margin-bottom: 0px;
+}
+
+.inner-title
+{
+    /*color: #2B67A4;*/
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 5px 15px;
+    display: block;
+    font-weight: bold;
+    background: #9CD7EF;
+    margin: 0px 0 0px 0;
+}
+
+.inner-title_center
+{
+    /*color: #2B67A4;*/
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align:  center;
+    padding: 5px 15px;
+    display: block;
+    font-weight: bold;
+    background: #9CD7EF;
+    margin: 0px 0 0px 0;
+}
+
+
+
+.clear
+{
+    clear: both;
+}
+
+
+hr.style-four
+{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+}
+.mendatory
+{
+    color: #F00;
+    font-size: 13px;
+    width: 100%;
+}
+.watermarked
+{
+    color: Gray;
+    font-size:11px;
+}
+
+.msg1
+{
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 1.5em;
+    color: #2B67A4;
+    text-align:  center;
+    display: block;
+    font-weight: bold;
+    margin: 0px 0 0px 0;
+}
+
+.link1
+{
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #993300;
+    text-align:  center;
+    display: block;
+    font-weight: bold;
+    margin: 0px 0 0px 0;
+    text-decoration:none;
+}
+
+/* ======================== Modalpopup Extender Style Sheet ============================ */
+.modalBackground
+{
+    background:rgba(0,0,0,.4);
+    filter: alpha(opacity=50);
+    opacity: 0.7;
+}
+.modalPopup
+{
+    /*background-color: #bad8f5;
+    border-width: 3px;
+    border-style: solid;
+    border-color: Gray;
+    padding: 3px;*/
+    
+    /*width:75px;
+	height:189px;*/
+    padding:6px;
+    background:rgba(0,0,0,.4);
+
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+
+	/*position:absolute !important;
+	top:50% !important;
+	left:50% !important;
+	margin-top:-94px !important;
+	margin-left:-180px !important;*/
+	z-index:101;
+}
+.modalpopuphead1
+{
+    /*background-color: #0e4c85;
+    color: White;
+    font-weight: bold;
+    padding: 3px;*/
+}
+.modalpopupheadrow1
+{
+    background-image: url(Images/header.gif);
+}
+.modalpopuptable1
+{
+    /*width: 100%;
+    border: Solid 2px #0e4c85;*/
+}
+
+#modal_heading {
+	/*width:75px;
+	height:44px;*/
+
+	background-image: -webkit-linear-gradient(top, rgb(249, 249, 249), rgb(233, 233, 233));
+	background-image: -moz-linear-gradient(top, rgb(249, 249, 249), rgb(233, 233, 233));
+	background-image: -o-linear-gradient(top, rgb(249, 249, 249), rgb(233, 233, 233));
+	background-image: -ms-linear-gradient(top, rgb(249, 249, 249), rgb(233, 233, 233));
+	background-image: linear-gradient(top, rgb(249, 249, 249), rgb(233, 233, 233));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f9f9f9', EndColorStr='#e9e9e9');
+
+	border-bottom:1px solid #bababa;
+
+	-webkit-box-shadow:
+		inset 0px -1px 0px #fff,
+		0px 1px 3px rgba(0,0,0,.08);
+	-moz-box-shadow:
+		inset 0px -1px 0px #fff,
+		0px 1px 3px rgba(0,0,0,.08);
+	box-shadow:
+		inset 0px -1px 0px #fff,
+		0px 1px 3px rgba(0,0,0,.08);
+
+	-webkit-border-radius:4px 4px 0px 0px;
+	-moz-border-radius:4px 4px 0px 0px;
+	border-radius:4px 4px 0px 0px;
+
+	font-size:15px;
+	font-weight:bold;
+	text-align:center;
+	line-height:44px;
+	vertical-align:top;
+    
+	color:#444444;
+	text-shadow:0px 1px 0px #fff;
+}
+
+#modal_content {
+	/*width:75px;
+	height:144px;*/
+
+	background:#fcfcfc;
+        
+	-webkit-box-shadow:0px 1px 3px rgba(0,0,0,.25);
+	-moz-box-shadow:0px 1px 3px rgba(0,0,0,.25);
+	box-shadow:0px 1px 3px rgba(0,0,0,.25);
+
+	-webkit-border-radius:0px 0px 4px 4px;
+	-moz-border-radius:0px 0px 4px 4px;
+	border-radius:0px 0px 4px 4px;
+}
+
+#modal_content p {
+	font-size:13px;
+	font-weight:normal;
+	text-align:left;
+	line-height:12px;
+	color:#555555;
+
+	width:100%;
+	float: left;
+
+	/*margin:19px 0;*/
+	padding-left:15px;
+}
+
+.Alert
+{
+    font-size:14px;
+}
+
+.Progress_alert
+{
+    color: #2B67A4;
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+    margin: 0px 0 0px 0;
+}
+
+.Page_Heading
+{
+    font-family: Arial, Helvetica, sans-serif, Verdana;
+    font-size: 17px;
+    line-height: 1.5em; 
+    font-weight:bold;
+    Color: #007ACC;
+}
+
+.Page_Footer
+{
+    background-color:#93D7FB;
+}
+
+.inner-box_footer
+{
+    width:100%;
+    height: auto;
+    float: left;
+    /*background: #EAFAFF;*/
+    color: #ffffff;
+    background: -moz-linear-gradient(315deg, rgba(30, 176, 234) 0%, rgba(108, 29, 199) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(30, 176, 234)), color-stop(100%, rgba(108, 29, 199))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(315deg, rgba(30, 176, 234) 0%, rgba(108, 29, 199) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(315deg, rgba(30, 176, 234) 0%, rgba(108, 29, 199) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(315deg, rgba(30, 176, 234) 0%, rgba(108, 29, 199) 100%); /* ie10+ */
+    background: linear-gradient(135deg, rgba(30, 176, 234) 0%, rgba(108, 29, 199) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c0094', endColorstr='#ff4e50',GradientType=1 );
+    -moz-box-shadow: 0px 0px 3px #999;
+    -webkit-box-shadow: 0px 0px 3px #999;
+    box-shadow: 0px 0px 3px #999;
+    padding: 3px 0 3px 0;
+}
+
+.container-main_footer1
+{
+    width: 958px;
+    height: auto;
+    float: left;
+    background: #FFF;
+    padding: 0px;
+    -moz-box-shadow: 0px 0px 3px #999;
+    -webkit-box-shadow: 0px 0px 3px #999;
+    box-shadow: 0px 0px 3px #999;
+    margin-bottom: 0px;
+}
+
+.container-main_footer
+{
+    width: 958px;
+    height: auto;
+    float: left;
+    background: #FFF;
+    padding: 0px;
+    -moz-box-shadow: 0px 0px 3px #999;
+    -webkit-box-shadow: 0px 0px 3px #999;
+    box-shadow: 0px 0px 3px #999;
+    margin-bottom: 0px;
+}
+
+.Table_Row_Height tr
+{
+    line-height:20px;
+}
+
+/* ************************************ FOR NEW THEME ********************************************** */
+.navbar 
+{
+    border:1px none black;
+    border-radius: 0px;    
+}
+
+.navbar-default_menu
+{
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+box-shadow: 0px 0px 3px #999;
+border-bottom: 1px solid black;
+}
+.navbar-default_menu .navbar-nav>li>a {color: #000001;}
+.navbar-default_menu .navbar-nav>li>a:hover {background-color: #b22f6c;color:#fff;}
+
+.navbar-default {background-color: #3c0094;}
+.navbar-default .navbar-nav>li>a {color: #000001;}
+.navbar-default .navbar-nav>li>a:hover {background-color: #b22f6c;}
+
+/*.inner-box {background-color: #fff;}*/
+
+.panel-heading
+{
+    color: #ffffff;
+    background: -moz-linear-gradient(315deg, rgba(30, 176, 234) 0%, rgba(108, 29, 199) 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(30, 176, 234)), color-stop(100%, rgba(108, 29, 199)));
+    background: -webkit-linear-gradient(315deg, rgba(30, 176, 234) 0%, rgba(108, 29, 199) 100%);
+    background: -o-linear-gradient(315deg, rgba(30, 176, 234) 0%, rgba(108, 29, 199) 100%);
+    background: -ms-linear-gradient(315deg, rgba(30, 176, 234) 0%, rgba(108, 29, 199) 100%);
+    background: linear-gradient(135deg, rgba(30, 176, 234) 0%, rgba(108, 29, 199) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c0094', endColorstr='#ff4e50',GradientType=1 );
+}
+.panel-heading .control-label
+{
+    color: #ffffff;
+}
+.text-danger
+{
+    color: #ffffff;
+}
+        
+/* ======================== Modalpopup Extender Style Sheet ============================ */
